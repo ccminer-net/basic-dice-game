@@ -18,7 +18,8 @@ echo ('
 <strong><center>YOU MUST PICK A NUMBER BIGGER THAN 5200 TO WIN!<br>YOU HAVE THE 48% OF POSSIBILITY TO DOUBLE YOUR CCM</strong></center>
 <strong><center>CCM <input style="height:35px; width:153px" name="BET_CCM" type="number" value="50" min="50" step="1" numberFormat: "1" /></strong></center>
 <center><input type="submit" name="bet_submitted" value="PLAY" /></center>
-</form>');
+</form>'
+);
 if (isset ($_POST['bet_submitted'])){
 $sql ="SELECT user_id,meta_key,meta_value FROM wp_usermeta";
 $results = $conn->query($sql);
