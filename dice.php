@@ -16,7 +16,7 @@ echo ('
 <strong><center>______</center></strong><br>
 <form name="SellCCM" action="[YOUR SITE PAGE URL]" method="POST">
 <strong><center>YOU MUST PICK A NUMBER BIGGER THAN 5200 TO WIN!<br>YOU HAVE THE 48% OF POSSIBILITY TO DOUBLE YOUR CCM</strong></center>
-<strong><center>CCM <input style="height:35px; width:153px" name="BET_CCM" type="number" value="50" min="50" step="1" numberFormat: "1" /></strong></center>
+<strong><center>CCM <input style="height:35px; width:153px" name="BET_CCM" type="number" value="100" min="100" step="1" numberFormat: "1" /></strong></center>
 <center><input type="submit" name="bet_submitted" value="PLAY" /></center>
 </form>'
 );
